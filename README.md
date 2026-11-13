@@ -1,6 +1,6 @@
 # Environment Banner plugin for Craft CMS
 
-Marks Craft environments so you can tell them apart at a glance:
+Marks Craft environments so you can tell them apart at a glance, especially useful with vertical tabs:
 
 - A coloured banner across the top of the control panel.
 - A coloured symbol at the start of every page `<title>` (CP and front end), so browser tabs are easy to tell apart.
