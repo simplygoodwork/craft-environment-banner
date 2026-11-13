@@ -7,6 +7,8 @@ Marks Craft environments so you can tell them apart at a glance:
 
 The defaults mark `dev`/`development` with a blue diamond 🔷 and `staging` with a red circle 🔴. Shape differs as well as colour, so it works for colour-blind users. Environments that are not listed (such as `production`) get nothing.
 
+![Browser tabs for a local dev site (blue diamond) and a staging site (red circle), each with the symbol at the start of the page title](resources/img/environment-banner-screenshot.png)
+
 ## Requirements
 
 This plugin requires Craft CMS `5.0.0` or later.
