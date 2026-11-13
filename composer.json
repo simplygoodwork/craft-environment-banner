@@ -1,0 +1,49 @@
+{
+  "name": "simplygoodwork/craft-environment-banner",
+  "description": "Marks Craft environments with a control panel banner and a coloured symbol at the start of every page title",
+  "type": "craft-plugin",
+  "license": "proprietary",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "environment",
+    "environment-banner"
+  ],
+  "support": {
+    "email": "dev@simplygoodwork.com",
+    "issues": "https://github.com/simplygoodwork/craft-environment-banner/issues",
+    "docs": "https://github.com/simplygoodwork/craft-environment-banner/blob/main/README.md"
+  },
+  "authors": [
+    {
+      "name": "Good Work",
+      "homepage": "https://simplygoodwork.com/"
+    }
+  ],
+  "require": {
+    "php": ">=8.2",
+    "craftcms/cms": "^5.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "simplygoodwork\\environmentbanner\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Environment Banner",
+    "handle": "environment-banner",
+    "developer": "Good Work",
+    "developerUrl": "https://simplygoodwork.com/",
+    "documentationUrl": "https://github.com/simplygoodwork/craft-environment-banner/blob/main/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/simplygoodwork/craft-environment-banner/main/CHANGELOG.md",
+    "class": "simplygoodwork\\environmentbanner\\EnvironmentBanner"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}
